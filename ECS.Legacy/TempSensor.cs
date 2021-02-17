@@ -11,6 +11,7 @@ namespace ECS.Legacy
             return gen.Next(-5, 45);
         }
         //hello world
+        //hello everyone
         public bool RunSelfTest()
         {
             return true;
