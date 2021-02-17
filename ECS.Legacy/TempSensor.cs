@@ -10,8 +10,9 @@ namespace ECS.Legacy
         {
             return gen.Next(-5, 45);
         }
-
+        //hej med dig
         public bool RunSelfTest()
+            //hej med jer alle
         {
             return true;
         }
