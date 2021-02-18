@@ -6,12 +6,12 @@
         {
             System.Console.WriteLine("Heater is on");
         }
-
+        
         public void TurnOff()
         {
             System.Console.WriteLine("Heater is off");
         }
-        //hello from murat
+        
         public bool RunSelfTest()
         {
             return true;
