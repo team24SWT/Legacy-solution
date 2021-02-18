@@ -4,13 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            var ecs = new ECS(28);
+            //var ecs = new ECS(28, new TempSensor(), new Heater());
 
-            ecs.Regulate();
+           // ecs.Regulate();
 
-            ecs.SetThreshold(20);
+           // ecs.SetThreshold(20);
 
-            ecs.Regulate();
+           // ecs.Regulate();
         }
     }
 }

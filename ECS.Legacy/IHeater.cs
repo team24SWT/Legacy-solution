@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ECS.Legacy
 {
-    interface Interface1
+    public interface IHeater
     {
+        void TurnOn();
+        void TurnOff();
+        bool RunSelfTest();
+        //bool isHeaterOn();
+        //bool isHeaterOff();
     }
 }

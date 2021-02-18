@@ -38,6 +38,16 @@
             return _tempSensor.GetTemp();
         }
 
+        //public bool GetIsHeaterOn()
+        //{
+        //    return _heater.isHeaterOn();
+        //}
+
+        //public bool GetIsHeaterOff()
+        //{
+        //    return _heater.isHeaterOff();
+        //}
+
         public bool RunSelfTest()
         {
             return _tempSensor.RunSelfTest() && _heater.RunSelfTest();
