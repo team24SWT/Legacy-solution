@@ -4,9 +4,11 @@ namespace NUnitTestECSLegacy
 {
     public class Tests
     {
+        private ECS ecs_;
         [SetUp]
         public void Setup()
         {
+            _heater = 
         }
 
         [Test]
