@@ -11,7 +11,7 @@ namespace ECS.Tests.Subs
         private IHeater heater_;
         private ITempSensor tempSensor_;
 
-
+        
         [SetUp]
         public void Setup()
         {
