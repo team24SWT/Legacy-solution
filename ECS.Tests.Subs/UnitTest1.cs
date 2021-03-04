@@ -52,6 +52,7 @@ namespace ECS.Tests.Subs
             heater_.RunSelfTest().Returns(true);
             Assert.IsTrue(ecs_.RunSelfTest());
         }
+        
 
         [Test]
         public void heaterOnWhenTempBelowThreshold()
