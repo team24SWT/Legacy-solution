@@ -1,4 +1,4 @@
-using ECS.Legacy;
+using ECS.LegacyCore;
 using NUnit.Framework;
 using NSubstitute;
 
@@ -7,7 +7,7 @@ namespace ECS.Tests.Subs
     [TestFixture]
     public class Tests
     {
-        private Legacy.ECS ecs_;
+        private LegacyCore.ECS ecs_;
         private IHeater heater_;
         private ITempSensor tempSensor_;
 
@@ -19,7 +19,7 @@ namespace ECS.Tests.Subs
             heater_ = Substitute.For<IHeater>();
             tempSensor_ = Substitute.For<ITempSensor>();
 
-            ecs_ = new Legacy.ECS(25, tempSensor_, heater_);
+            ecs_ = new LegacyCore.ECS(25, tempSensor_, heater_);
         }
 
 
