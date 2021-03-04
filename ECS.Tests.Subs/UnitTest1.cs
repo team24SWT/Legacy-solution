@@ -22,6 +22,7 @@ namespace ECS.Tests.Subs
             ecs_ = new Legacy.ECS(25, tempSensor_, heater_);
         }
 
+
         [Test]
         public void tempSensorFailedTest()
         {
