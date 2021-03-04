@@ -32,7 +32,7 @@ namespace ECS.Tests.Subs
         }
 
         [Test]
-        public void heaterFailedTest()
+        public void heaterFailedTest() 
         {
             tempSensor_.RunSelfTest().Returns(true);
             heater_.RunSelfTest().Returns(false);
