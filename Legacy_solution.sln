@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5CABD59-540F-4FA8-B8A3-17B419172AE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECS.Tests.Core", "ECS.Tests.Subs\ECS.Tests.Core.csproj", "{19B16070-B598-4156-9D98-889D00F94F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECS.Test.Core", "ECS.Tests.Subs\ECS.Test.Core.csproj", "{19B16070-B598-4156-9D98-889D00F94F12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECS.LegacyCore", "ECS.LegacyCore\ECS.LegacyCore.csproj", "{FDA44171-10CF-4A3B-B47C-F751E311EA7C}"
 EndProject
