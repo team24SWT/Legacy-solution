@@ -2,7 +2,7 @@ using ECS.LegacyCore;
 using NUnit.Framework;
 using NSubstitute;
 
-namespace ECS.Tests.Subs
+namespace ECS.Test.Core
 {
     [TestFixture]
     public class Tests
