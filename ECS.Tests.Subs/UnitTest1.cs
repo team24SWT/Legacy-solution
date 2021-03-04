@@ -45,6 +45,7 @@ namespace ECS.Tests.Subs
             Assert.IsFalse(ecs_.RunSelfTest());
         }
 
+
         [Test]
         public void allSuccessTest()
         {
